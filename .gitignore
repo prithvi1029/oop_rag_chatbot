@@ -1,7 +1,17 @@
+# Virtual environment
 venv_chatbot/
+
+# Python cache
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 
-faiss_index/sample_index/index.pkl
+# FAISS index files (ignore only files, not folders)
+*.pkl
+*.faiss
 
+# Uploaded PDFs (ignore only files, not folder)
+*.pdf
+
+# VS Code settings (optional)
+.vscode/
